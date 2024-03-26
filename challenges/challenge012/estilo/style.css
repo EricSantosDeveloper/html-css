@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+.cabeçalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.titulo {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+.autor {
+    padding-bottom: 50px;
+}
+
+.link-autor, .link-rodape {
+    color: white;
+    font-weight: bolder;
+}
+
+.link-autor:hover, .link-rodape:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+}
+
+.paragrafo-imagem {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
